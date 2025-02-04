@@ -7,39 +7,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace OAO
 {
-    public partial class Form7 : Form
+    public partial class Form10 : Form
     {
-        public Form7()
+        public Form10()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            textBox1.CharacterCasing = CharacterCasing.Lower;
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            string correct8 = "red";
-            if (textBox1.Text == correct8)
+            string correct11 = "5800";
+            if (textBox1.Text == correct11)
             {
-
                 this.Close();
-                Form9 form9 = new Form9();
-                form9.Show();
+                Form11 form11 = new Form11();
+                form11.Show();
+
 
             }
             else
             {
-
-                Form4 form4 = new Form4();  
+                this.Close();
+                Form4 form4 = new Form4();
                 form4.Show();
-
             }
         }
     }
