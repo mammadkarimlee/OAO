@@ -2,45 +2,44 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace OAO
 {
-    public partial class Form7 : Form
+    public partial class Form9 : Form
     {
-        public Form7()
+        public Form9()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            textBox1.CharacterCasing = CharacterCasing.Lower;
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            string correct8 = "red";
-            if (textBox1.Text == correct8)
+            string correct10 = "queue";
+            if (textBox1.Text == correct10)
             {
-
                 this.Close();
-                Form9 form9 = new Form9();
-                form9.Show();
+                Form8 form8 = new Form8();
+                form8.Show();
+
 
             }
             else
             {
-
-                Form4 form4 = new Form4();  
+                this.Close();
+                Form4 form4 = new Form4();
                 form4.Show();
-
             }
+
+
+
         }
+
+
     }
 }
