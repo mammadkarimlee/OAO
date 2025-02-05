@@ -16,5 +16,29 @@ namespace OAO
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string correct11 = "hadaf lyceum";
+            if (textBox1.Text == correct11)
+
+            {
+                this.Close();
+                Form13 form13 = new Form13();
+                form13.Show();
+
+            }
+            else
+            {
+                this.Close();
+                Form4 form4 = new Form4();
+                form4.Show();
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
