@@ -50,3 +50,5 @@ C:\Project\oao\obj\Debug\net8.0-windows\OAO.Form9.resources
 C:\Project\oao\obj\Debug\net8.0-windows\OAO.Form8.resources
 C:\Project\oao\obj\Debug\net8.0-windows\OAO.Form10.resources
 C:\Project\oao\obj\Debug\net8.0-windows\OAO.Form11.resources
+C:\Project\oao\obj\Debug\net8.0-windows\OAO.Form12.resources
+C:\Project\oao\obj\Debug\net8.0-windows\OAO.Form13.resources

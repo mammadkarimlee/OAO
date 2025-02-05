@@ -41,9 +41,10 @@
             label1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.Location = new Point(141, 24);
             label1.Name = "label1";
-            label1.Size = new Size(696, 96);
+            label1.Size = new Size(772, 96);
             label1.TabIndex = 0;
-            label1.Text = "puzahnyht : vhv2525";
+            label1.Text = "puzahnyht : vhhh.uzdly";
+            label1.Click += label1_Click;
             // 
             // textBox1
             // 
@@ -60,7 +61,7 @@
             panel1.Controls.Add(button1);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(textBox1);
-            panel1.Location = new Point(405, 53);
+            panel1.Location = new Point(423, 79);
             panel1.Name = "panel1";
             panel1.Size = new Size(1004, 430);
             panel1.TabIndex = 2;
@@ -75,13 +76,14 @@
             button1.TabIndex = 2;
             button1.Text = "Submit";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Form12
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 192, 255);
-            ClientSize = new Size(1882, 1003);
+            ClientSize = new Size(1918, 1055);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form12";

@@ -38,10 +38,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Yu Gothic UI", 72F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(38, 30);
+            label1.Font = new Font("MingLiU_MSCS-ExtB", 72F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(88, 32);
             label1.Name = "label1";
-            label1.Size = new Size(391, 191);
+            label1.Size = new Size(279, 144);
             label1.TabIndex = 0;
             label1.Text = "OAO";
             // 
