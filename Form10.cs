@@ -35,5 +35,10 @@ namespace OAO
                 form4.Show();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label2.Visible = true;
+        }
     }
 }

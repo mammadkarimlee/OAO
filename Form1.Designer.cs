@@ -38,10 +38,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("MingLiU_MSCS-ExtB", 72F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(88, 32);
+            label1.Font = new Font("Showcard Gothic", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(56, 31);
             label1.Name = "label1";
-            label1.Size = new Size(279, 144);
+            label1.Size = new Size(364, 177);
             label1.TabIndex = 0;
             label1.Text = "OAO";
             // 
@@ -49,7 +49,8 @@
             // 
             button1.Anchor = AnchorStyles.None;
             button1.BackColor = Color.FromArgb(192, 192, 255);
-            button1.Font = new Font("Yu Gothic UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.Location = new Point(143, 271);
             button1.Name = "button1";
             button1.Size = new Size(171, 62);
@@ -61,10 +62,11 @@
             // panel1
             // 
             panel1.Anchor = AnchorStyles.None;
+            panel1.BackgroundImageLayout = ImageLayout.Stretch;
             panel1.Controls.Add(button2);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(button1);
-            panel1.Location = new Point(684, 130);
+            panel1.Location = new Point(762, 136);
             panel1.Name = "panel1";
             panel1.Size = new Size(479, 585);
             panel1.TabIndex = 2;
@@ -72,7 +74,8 @@
             // button2
             // 
             button2.BackColor = Color.FromArgb(192, 192, 255);
-            button2.Font = new Font("Yu Gothic UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Showcard Gothic", 11F);
             button2.Location = new Point(143, 385);
             button2.Name = "button2";
             button2.Size = new Size(171, 62);

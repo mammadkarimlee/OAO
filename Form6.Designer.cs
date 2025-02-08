@@ -38,10 +38,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 26F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Showcard Gothic", 26F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.Location = new Point(473, 47);
             label1.Name = "label1";
-            label1.Size = new Size(305, 70);
+            label1.Size = new Size(312, 65);
             label1.TabIndex = 0;
             label1.Text = "CONGRATS!";
             // 
@@ -58,7 +58,9 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.FromArgb(192, 192, 255);
+            button1.BackColor = Color.FromArgb(255, 192, 255);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Showcard Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.Location = new Point(522, 253);
             button1.Name = "button1";
             button1.Size = new Size(182, 69);
@@ -70,10 +72,10 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 28F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Showcard Gothic", 26F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(53, 137);
             label2.Name = "label2";
-            label2.Size = new Size(1132, 74);
+            label2.Size = new Size(1107, 65);
             label2.TabIndex = 1;
             label2.Text = "YOU SUCCESFULLY PASSED THE FIRST STAGE";
             // 
@@ -81,7 +83,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(192, 192, 255);
+            BackColor = Color.FromArgb(255, 192, 255);
             ClientSize = new Size(1876, 1005);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;

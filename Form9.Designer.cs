@@ -37,21 +37,25 @@
             // 
             // label1
             // 
-            label1.Font = new Font("Segoe UI", 26F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(68, 28);
+            label1.Font = new Font("Showcard Gothic", 22F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(3, 37);
             label1.Name = "label1";
-            label1.Size = new Size(1106, 244);
+            label1.Size = new Size(1445, 244);
             label1.TabIndex = 0;
-            label1.Text = "If you remove one letter from my name, I still mean the same. Remove two, I still mean the same. Remove three, I still mean the same. What am I?";
+            label1.Text = "If you remove one letter from my name, I still mean the same. Remove two, I still mean the same. Remove three, I still mean the same. What am I? \U0001f9e9";
+            label1.Click += label1_Click;
             // 
             // textBox1
             // 
-            textBox1.BackColor = Color.FromArgb(192, 192, 255);
-            textBox1.Location = new Point(245, 284);
+            textBox1.BackColor = Color.Red;
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
+            textBox1.Font = new Font("Showcard Gothic", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(400, 284);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(661, 101);
             textBox1.TabIndex = 1;
+            textBox1.TextAlign = HorizontalAlignment.Center;
             // 
             // panel1
             // 
@@ -59,18 +63,19 @@
             panel1.Controls.Add(button1);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(textBox1);
-            panel1.Location = new Point(298, 12);
+            panel1.Location = new Point(215, 12);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1253, 623);
+            panel1.Size = new Size(1451, 918);
             panel1.TabIndex = 2;
             // 
             // button1
             // 
-            button1.BackColor = Color.FromArgb(192, 192, 255);
-            button1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(478, 410);
+            button1.BackColor = Color.Red;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.Location = new Point(639, 426);
             button1.Name = "button1";
-            button1.Size = new Size(152, 54);
+            button1.Size = new Size(197, 54);
             button1.TabIndex = 2;
             button1.Text = "Submit";
             button1.UseVisualStyleBackColor = false;
@@ -80,7 +85,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(192, 192, 255);
+            BackColor = Color.Red;
             ClientSize = new Size(1881, 1005);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;

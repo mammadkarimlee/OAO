@@ -38,5 +38,10 @@ namespace OAO
             label4.Visible = true;
 
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
