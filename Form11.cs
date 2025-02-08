@@ -30,9 +30,19 @@ namespace OAO
             else
             {
                 this.Close();
-                Form4 form4 = new Form4(); 
+                Form4 form4 = new Form4();
                 form4.Show();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label2.Visible = true;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -45,48 +45,49 @@
             panel1.Controls.Add(label1);
             panel1.Location = new Point(12, 21);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1847, 956);
+            panel1.Size = new Size(1936, 956);
             panel1.TabIndex = 0;
             // 
             // label4
             // 
-            label4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.FromArgb(192, 192, 255);
-            label4.Location = new Point(671, 645);
+            label4.Location = new Point(682, 552);
             label4.Name = "label4";
-            label4.Size = new Size(486, 282);
+            label4.Size = new Size(571, 364);
             label4.TabIndex = 3;
-            label4.Text = "Creators: Nurlan Huseynli\r\n               Orkhan Haciyev\r\n               Aykhan Alizade\r\n               Oghuz Mamiyev";
+            label4.Text = "Creators: OKHUZ MAMIYEV\r\n                             Orkhan HaJiyev\r\n                             Aykhan Alizade  \r\n                             NURLAN HUSEYINLI\r\n     \r\n";
+            label4.Click += label4_Click;
             // 
             // label3
             // 
-            label3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(192, 192, 255);
-            label3.Location = new Point(651, 421);
+            label3.Location = new Point(656, 417);
             label3.Name = "label3";
-            label3.Size = new Size(506, 59);
+            label3.Size = new Size(586, 59);
             label3.TabIndex = 2;
             label3.Text = "Instructor: Mammad Karimli";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Showcard Gothic", 28F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(192, 192, 255);
             label2.Location = new Point(13, 193);
             label2.Name = "label2";
-            label2.Size = new Size(1834, 96);
+            label2.Size = new Size(1763, 68);
             label2.TabIndex = 1;
             label2.Text = "Congratulations! You successfully passed the quiz/game.";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Showcard Gothic", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(192, 192, 255);
-            label1.Location = new Point(438, 12);
+            label1.Location = new Point(525, 16);
             label1.Name = "label1";
-            label1.Size = new Size(894, 191);
+            label1.Size = new Size(851, 177);
             label1.TabIndex = 0;
             label1.Text = "OAO GAMES";
             label1.Click += label1_Click;

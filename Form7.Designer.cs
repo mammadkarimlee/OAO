@@ -38,20 +38,21 @@ partial class Form7
         // label1
         // 
         label1.AutoSize = true;
-        label1.Font = new Font("Segoe UI", 28F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        label1.Location = new Point(190, 31);
+        label1.Font = new Font("Showcard Gothic", 28F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        label1.Location = new Point(16, 37);
         label1.Name = "label1";
-        label1.Size = new Size(679, 74);
+        label1.Size = new Size(988, 68);
         label1.TabIndex = 0;
-        label1.Text = "Doha pz aol dhytlza jvsvy?";
+        label1.Text = "🔐Doha pz aol dhytlza jvsvy?🔐";
         // 
         // button1
         // 
-        button1.BackColor = Color.FromArgb(192, 192, 255);
-        button1.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        button1.Location = new Point(426, 241);
+        button1.BackColor = Color.FromArgb(255, 192, 192);
+        button1.FlatStyle = FlatStyle.Flat;
+        button1.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        button1.Location = new Point(398, 238);
         button1.Name = "button1";
-        button1.Size = new Size(143, 56);
+        button1.Size = new Size(234, 56);
         button1.TabIndex = 1;
         button1.Text = "submit";
         button1.UseVisualStyleBackColor = false;
@@ -59,12 +60,15 @@ partial class Form7
         // 
         // textBox1
         // 
-        textBox1.BackColor = Color.FromArgb(192, 192, 255);
+        textBox1.BackColor = Color.FromArgb(255, 192, 192);
+        textBox1.BorderStyle = BorderStyle.FixedSingle;
+        textBox1.Font = new Font("Showcard Gothic", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
         textBox1.Location = new Point(261, 148);
         textBox1.Multiline = true;
         textBox1.Name = "textBox1";
         textBox1.Size = new Size(495, 61);
         textBox1.TabIndex = 2;
+        textBox1.TextAlign = HorizontalAlignment.Center;
         textBox1.TextChanged += textBox1_TextChanged;
         // 
         // panel1
@@ -82,7 +86,7 @@ partial class Form7
         // 
         AutoScaleDimensions = new SizeF(10F, 25F);
         AutoScaleMode = AutoScaleMode.Font;
-        BackColor = Color.FromArgb(192, 192, 255);
+        BackColor = Color.FromArgb(255, 192, 192);
         ClientSize = new Size(1900, 1009);
         Controls.Add(panel1);
         FormBorderStyle = FormBorderStyle.None;

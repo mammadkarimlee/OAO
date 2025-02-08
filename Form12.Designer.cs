@@ -38,22 +38,25 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(141, 24);
+            label1.Font = new Font("Showcard Gothic", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(53, 26);
             label1.Name = "label1";
-            label1.Size = new Size(772, 96);
+            label1.Size = new Size(1003, 89);
             label1.TabIndex = 0;
             label1.Text = "puzahnyht : vhhh.uzdly";
             label1.Click += label1_Click;
             // 
             // textBox1
             // 
-            textBox1.BackColor = Color.FromArgb(192, 192, 255);
-            textBox1.Location = new Point(234, 153);
+            textBox1.BackColor = Color.FromArgb(64, 0, 0);
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
+            textBox1.Font = new Font("Showcard Gothic", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(317, 149);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(495, 81);
             textBox1.TabIndex = 1;
+            textBox1.TextAlign = HorizontalAlignment.Center;
             // 
             // panel1
             // 
@@ -61,18 +64,19 @@
             panel1.Controls.Add(button1);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(textBox1);
-            panel1.Location = new Point(423, 79);
+            panel1.Location = new Point(405, 79);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1004, 430);
+            panel1.Size = new Size(1105, 620);
             panel1.TabIndex = 2;
             // 
             // button1
             // 
-            button1.BackColor = Color.FromArgb(192, 192, 255);
-            button1.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(391, 262);
+            button1.BackColor = Color.FromArgb(64, 0, 0);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.Location = new Point(479, 265);
             button1.Name = "button1";
-            button1.Size = new Size(160, 62);
+            button1.Size = new Size(184, 62);
             button1.TabIndex = 2;
             button1.Text = "Submit";
             button1.UseVisualStyleBackColor = false;
@@ -82,7 +86,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(192, 192, 255);
+            BackColor = Color.FromArgb(64, 0, 0);
             ClientSize = new Size(1918, 1055);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;

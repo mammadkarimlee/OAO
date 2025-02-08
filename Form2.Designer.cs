@@ -38,19 +38,20 @@ partial class Form2
         // panel1
         // 
         panel1.Anchor = AnchorStyles.None;
+        panel1.BackgroundImageLayout = ImageLayout.Stretch;
         panel1.Controls.Add(button1);
         panel1.Controls.Add(textBox1);
         panel1.Controls.Add(label1);
-        panel1.Location = new Point(418, 84);
+        panel1.Location = new Point(407, 164);
         panel1.Name = "panel1";
         panel1.Size = new Size(1047, 494);
         panel1.TabIndex = 0;
         // 
         // button1
         // 
-        button1.BackColor = Color.FromArgb(192, 192, 255);
+        button1.BackColor = Color.FromArgb(128, 128, 255);
         button1.FlatStyle = FlatStyle.Flat;
-        button1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        button1.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
         button1.Location = new Point(382, 293);
         button1.Name = "button1";
         button1.Size = new Size(244, 68);
@@ -61,22 +62,24 @@ partial class Form2
         // 
         // textBox1
         // 
-        textBox1.BackColor = Color.FromArgb(192, 192, 255);
+        textBox1.BackColor = Color.FromArgb(128, 128, 255);
         textBox1.BorderStyle = BorderStyle.FixedSingle;
+        textBox1.Font = new Font("Showcard Gothic", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
         textBox1.Location = new Point(48, 145);
         textBox1.Multiline = true;
         textBox1.Name = "textBox1";
         textBox1.Size = new Size(939, 103);
         textBox1.TabIndex = 1;
+        textBox1.TextAlign = HorizontalAlignment.Center;
         textBox1.TextChanged += textBox1_TextChanged;
         // 
         // label1
         // 
         label1.AutoSize = true;
-        label1.Font = new Font("Segoe UI", 48F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        label1.Location = new Point(17, 14);
+        label1.Font = new Font("Showcard Gothic", 28F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        label1.Location = new Point(140, 43);
         label1.Name = "label1";
-        label1.Size = new Size(1013, 128);
+        label1.Size = new Size(755, 68);
         label1.TabIndex = 0;
         label1.Text = "What color is a mirror?";
         // 
@@ -84,8 +87,8 @@ partial class Form2
         // 
         AutoScaleDimensions = new SizeF(10F, 25F);
         AutoScaleMode = AutoScaleMode.Font;
-        BackColor = Color.FromArgb(192, 192, 255);
-        ClientSize = new Size(1876, 1007);
+        BackColor = Color.FromArgb(128, 128, 255);
+        ClientSize = new Size(1816, 916);
         Controls.Add(panel1);
         FormBorderStyle = FormBorderStyle.None;
         Name = "Form2";
